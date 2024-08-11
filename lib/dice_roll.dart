@@ -14,7 +14,7 @@ class DiceRoll extends StatefulWidget {
 class _DiceRollState extends State<DiceRoll> {
   int number = 1;
   Random random =
-      Random(); //declare here cuz don't wanna rxecute everytime the dice rolls
+      Random(); //declare here cuz don't wanna re-execute  everytime the dice rolls
 
   onRollDice() {
     setState(() {
