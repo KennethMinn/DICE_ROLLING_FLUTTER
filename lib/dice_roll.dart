@@ -16,7 +16,7 @@ class _DiceRollState extends State<DiceRoll> {
   Random random =
       Random(); //declare here cuz don't wanna re-execute  everytime the dice rolls
 
-  onRollDice() {
+  void onRollDice() {
     setState(() {
       number = random.nextInt(6) + 1;
     });
