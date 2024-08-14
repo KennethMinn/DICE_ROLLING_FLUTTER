@@ -38,10 +38,10 @@ class _DiceRollState extends State<DiceRoll> {
         OutlinedButton(
             onPressed: onRollDice,
             style: OutlinedButton.styleFrom(
-                padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
+                padding: const EdgeInsets.fromLTRB(30, 15, 30, 15),
                 backgroundColor: Colors.black,
                 foregroundColor: Colors.white,
-                textStyle: const TextStyle(fontSize: 24)),
+                textStyle: const TextStyle(fontSize: 20)),
             child: const Text("Roll Dice"))
       ],
     );
